@@ -13,6 +13,8 @@ public class TestngTut {
 		driver.get("https://google.com");
 		driver.findElement(By.name("q")).sendKeys("Mails");
 		driver.findElement(By.name("q")).sendKeys(Keys.RETURN);
+		String title = driver.getTitle();
+		System.out.println("The title of the page is "+title);
 		driver.close();
 	}
 	

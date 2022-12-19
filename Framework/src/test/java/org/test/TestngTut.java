@@ -16,6 +16,7 @@ public class TestngTut {
 		String title = driver.getTitle();
 		System.out.println("The title of the page is "+title);
 		driver.close();
+		System.out.println("Git push");
 	}
 	
 	public static void main(String[] args) {
